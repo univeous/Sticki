@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		580415472BFF834300818AC8 /* PhotoGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580415462BFF834300818AC8 /* PhotoGridView.swift */; };
+		580D206E2BDBCE3900CE799D /* StickiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D206D2BDBCE3900CE799D /* StickiApp.swift */; };
+		580D20702BDBCE3900CE799D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D206F2BDBCE3900CE799D /* ContentView.swift */; };
+		580D20722BDBCE3900CE799D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580D20712BDBCE3900CE799D /* Assets.xcassets */; };
+		580D20752BDBCE3900CE799D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 580D20742BDBCE3900CE799D /* Preview Assets.xcassets */; };
+		580D20802BDBCE3A00CE799D /* StickiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D207F2BDBCE3A00CE799D /* StickiTests.swift */; };
+		580D208A2BDBCE3A00CE799D /* StickiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D20892BDBCE3A00CE799D /* StickiUITests.swift */; };
+		580D208C2BDBCE3A00CE799D /* StickiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D208B2BDBCE3A00CE799D /* StickiUITestsLaunchTests.swift */; };
+		58900B3B2BFF8C8900BC6C23 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 58900B3A2BFF8C8900BC6C23 /* SDWebImageSwiftUI */; };
+		5896E8AD2C3A8F0000EA13B5 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580D10822C3A8AED00A49F21 /* BlurWindow.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		580D207C2BDBCE3A00CE799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580D20622BDBCE3900CE799D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580D20692BDBCE3900CE799D;
+			remoteInfo = Sticki;
+		};
+		580D20862BDBCE3A00CE799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 580D20622BDBCE3900CE799D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 580D20692BDBCE3900CE799D;
+			remoteInfo = Sticki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		580415462BFF834300818AC8 /* PhotoGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoGridView.swift; sourceTree = "<group>"; };
+		580D10822C3A8AED00A49F21 /* BlurWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
+		580D206A2BDBCE3900CE799D /* Sticki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sticki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		580D206D2BDBCE3900CE799D /* StickiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickiApp.swift; sourceTree = "<group>"; };
+		580D206F2BDBCE3900CE799D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		580D20712BDBCE3900CE799D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		580D20742BDBCE3900CE799D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		580D20762BDBCE3900CE799D /* Sticki.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Sticki.entitlements; sourceTree = "<group>"; };
+		580D207B2BDBCE3A00CE799D /* StickiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580D207F2BDBCE3A00CE799D /* StickiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickiTests.swift; sourceTree = "<group>"; };
+		580D20852BDBCE3A00CE799D /* StickiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		580D20892BDBCE3A00CE799D /* StickiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickiUITests.swift; sourceTree = "<group>"; };
+		580D208B2BDBCE3A00CE799D /* StickiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		58900B382BFF867700BC6C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		580D20672BDBCE3900CE799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58900B3B2BFF8C8900BC6C23 /* SDWebImageSwiftUI in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D20782BDBCE3A00CE799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D20822BDBCE3A00CE799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		580D10842C3A8BFF00A49F21 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				580D10822C3A8AED00A49F21 /* BlurWindow.swift */,
+				580415462BFF834300818AC8 /* PhotoGridView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		580D20612BDBCE3900CE799D = {
+			isa = PBXGroup;
+			children = (
+				580D206C2BDBCE3900CE799D /* Sticki */,
+				580D207E2BDBCE3A00CE799D /* StickiTests */,
+				580D20882BDBCE3A00CE799D /* StickiUITests */,
+				580D206B2BDBCE3900CE799D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		580D206B2BDBCE3900CE799D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				580D206A2BDBCE3900CE799D /* Sticki.app */,
+				580D207B2BDBCE3A00CE799D /* StickiTests.xctest */,
+				580D20852BDBCE3A00CE799D /* StickiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		580D206C2BDBCE3900CE799D /* Sticki */ = {
+			isa = PBXGroup;
+			children = (
+				580D10842C3A8BFF00A49F21 /* View */,
+				58900B382BFF867700BC6C23 /* Info.plist */,
+				580D206F2BDBCE3900CE799D /* ContentView.swift */,
+				580D206D2BDBCE3900CE799D /* StickiApp.swift */,
+				580D20712BDBCE3900CE799D /* Assets.xcassets */,
+				580D20762BDBCE3900CE799D /* Sticki.entitlements */,
+				580D20732BDBCE3900CE799D /* Preview Content */,
+			);
+			path = Sticki;
+			sourceTree = "<group>";
+		};
+		580D20732BDBCE3900CE799D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				580D20742BDBCE3900CE799D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		580D207E2BDBCE3A00CE799D /* StickiTests */ = {
+			isa = PBXGroup;
+			children = (
+				580D207F2BDBCE3A00CE799D /* StickiTests.swift */,
+			);
+			path = StickiTests;
+			sourceTree = "<group>";
+		};
+		580D20882BDBCE3A00CE799D /* StickiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				580D20892BDBCE3A00CE799D /* StickiUITests.swift */,
+				580D208B2BDBCE3A00CE799D /* StickiUITestsLaunchTests.swift */,
+			);
+			path = StickiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		580D20692BDBCE3900CE799D /* Sticki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580D208F2BDBCE3A00CE799D /* Build configuration list for PBXNativeTarget "Sticki" */;
+			buildPhases = (
+				580D20662BDBCE3900CE799D /* Sources */,
+				580D20672BDBCE3900CE799D /* Frameworks */,
+				580D20682BDBCE3900CE799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sticki;
+			packageProductDependencies = (
+				58900B3A2BFF8C8900BC6C23 /* SDWebImageSwiftUI */,
+			);
+			productName = Sticki;
+			productReference = 580D206A2BDBCE3900CE799D /* Sticki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		580D207A2BDBCE3A00CE799D /* StickiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580D20922BDBCE3A00CE799D /* Build configuration list for PBXNativeTarget "StickiTests" */;
+			buildPhases = (
+				580D20772BDBCE3A00CE799D /* Sources */,
+				580D20782BDBCE3A00CE799D /* Frameworks */,
+				580D20792BDBCE3A00CE799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580D207D2BDBCE3A00CE799D /* PBXTargetDependency */,
+			);
+			name = StickiTests;
+			productName = StickiTests;
+			productReference = 580D207B2BDBCE3A00CE799D /* StickiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		580D20842BDBCE3A00CE799D /* StickiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 580D20952BDBCE3A00CE799D /* Build configuration list for PBXNativeTarget "StickiUITests" */;
+			buildPhases = (
+				580D20812BDBCE3A00CE799D /* Sources */,
+				580D20822BDBCE3A00CE799D /* Frameworks */,
+				580D20832BDBCE3A00CE799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				580D20872BDBCE3A00CE799D /* PBXTargetDependency */,
+			);
+			name = StickiUITests;
+			productName = StickiUITests;
+			productReference = 580D20852BDBCE3A00CE799D /* StickiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		580D20622BDBCE3900CE799D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					580D20692BDBCE3900CE799D = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					580D207A2BDBCE3A00CE799D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 580D20692BDBCE3900CE799D;
+					};
+					580D20842BDBCE3A00CE799D = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 580D20692BDBCE3900CE799D;
+					};
+				};
+			};
+			buildConfigurationList = 580D20652BDBCE3900CE799D /* Build configuration list for PBXProject "Sticki" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 580D20612BDBCE3900CE799D;
+			packageReferences = (
+				58900B392BFF8C8900BC6C23 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = 580D206B2BDBCE3900CE799D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				580D20692BDBCE3900CE799D /* Sticki */,
+				580D207A2BDBCE3A00CE799D /* StickiTests */,
+				580D20842BDBCE3A00CE799D /* StickiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		580D20682BDBCE3900CE799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580D20752BDBCE3900CE799D /* Preview Assets.xcassets in Resources */,
+				580D20722BDBCE3900CE799D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D20792BDBCE3A00CE799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D20832BDBCE3A00CE799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		580D20662BDBCE3900CE799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5896E8AD2C3A8F0000EA13B5 /* BlurWindow.swift in Sources */,
+				580D20702BDBCE3900CE799D /* ContentView.swift in Sources */,
+				580415472BFF834300818AC8 /* PhotoGridView.swift in Sources */,
+				580D206E2BDBCE3900CE799D /* StickiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D20772BDBCE3A00CE799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580D20802BDBCE3A00CE799D /* StickiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		580D20812BDBCE3A00CE799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				580D208A2BDBCE3A00CE799D /* StickiUITests.swift in Sources */,
+				580D208C2BDBCE3A00CE799D /* StickiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		580D207D2BDBCE3A00CE799D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580D20692BDBCE3900CE799D /* Sticki */;
+			targetProxy = 580D207C2BDBCE3A00CE799D /* PBXContainerItemProxy */;
+		};
+		580D20872BDBCE3A00CE799D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 580D20692BDBCE3900CE799D /* Sticki */;
+			targetProxy = 580D20862BDBCE3A00CE799D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		580D208D2BDBCE3A00CE799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		580D208E2BDBCE3A00CE799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		580D20902BDBCE3A00CE799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sticki/Sticki.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sticki/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sticki/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = evil.Sticki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		580D20912BDBCE3A00CE799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Sticki/Sticki.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Sticki/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sticki/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = evil.Sticki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		580D20932BDBCE3A00CE799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = evil.StickiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sticki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sticki";
+			};
+			name = Debug;
+		};
+		580D20942BDBCE3A00CE799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = evil.StickiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sticki.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sticki";
+			};
+			name = Release;
+		};
+		580D20962BDBCE3A00CE799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = evil.StickiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sticki;
+			};
+			name = Debug;
+		};
+		580D20972BDBCE3A00CE799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = evil.StickiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Sticki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		580D20652BDBCE3900CE799D /* Build configuration list for PBXProject "Sticki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580D208D2BDBCE3A00CE799D /* Debug */,
+				580D208E2BDBCE3A00CE799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580D208F2BDBCE3A00CE799D /* Build configuration list for PBXNativeTarget "Sticki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580D20902BDBCE3A00CE799D /* Debug */,
+				580D20912BDBCE3A00CE799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580D20922BDBCE3A00CE799D /* Build configuration list for PBXNativeTarget "StickiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580D20932BDBCE3A00CE799D /* Debug */,
+				580D20942BDBCE3A00CE799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		580D20952BDBCE3A00CE799D /* Build configuration list for PBXNativeTarget "StickiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				580D20962BDBCE3A00CE799D /* Debug */,
+				580D20972BDBCE3A00CE799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58900B392BFF8C8900BC6C23 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58900B3A2BFF8C8900BC6C23 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58900B392BFF8C8900BC6C23 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 580D20622BDBCE3900CE799D /* Project object */;
+}
